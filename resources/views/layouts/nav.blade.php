@@ -57,7 +57,7 @@
                 <!-- Authentication Links -->
                 @if (Auth::guest())
                     <li><a href="{{ route('login') }}">Login</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
+                    <li><a href="{{ route('register') }}">Register pulling</a></li>
                 @else
                     <user-notifications></user-notifications>
 
